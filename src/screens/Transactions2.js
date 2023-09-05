@@ -2,9 +2,8 @@ import {useNavigation} from '@react-navigation/native';
 import React, {memo, useEffect} from 'react';
 import ScrollableTabView, {
   ScrollableTabBar,
-} from 'react-native-scrollable-tab-view';
+} from 'react-native-scrollable-tab-view-improved';
 import TransactionPickedList from '../organism/transactions2/TransactionPickedList';
-import TransactionAssignList from '../organism/transactions2/TransactionAssignList';
 
 const Transactions2 = ({route}) => {
   const {init} = route.params;
@@ -23,7 +22,6 @@ const Transactions2 = ({route}) => {
           activeTextColor="#1100BB"
         />
       )}>
-      <TransactionAssignList tabLabel="Ditugaskan" />
       <TransactionPickedList
         tabLabel="Belum Dikirim"
         status="0"

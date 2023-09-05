@@ -36,14 +36,11 @@ const TransactionPickedList = ({status, option}) => {
     console.log('status', status);
     const api_token = await AsyncStorage.getItem('api_token');
     const result = await api
-      .get(
-        `/${option}/transaction/picked?page=${p}&limit=${limit}&status=${status}`,
-        {
-          headers: {
-            Authorization: 'Bearer ' + api_token,
-          },
+      .get(`/${option}/transaction?page=${p}&limit=${limit}&status=${status}`, {
+        headers: {
+          Authorization: 'Bearer ' + api_token,
         },
-      )
+      })
       .then((res) => {
         console.log(res.data.data.length);
         if (res.data.success) {

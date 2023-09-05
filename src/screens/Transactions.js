@@ -1,7 +1,7 @@
 import React, {memo} from 'react';
 import ScrollableTabView, {
   ScrollableTabBar,
-} from 'react-native-scrollable-tab-view';
+} from 'react-native-scrollable-tab-view-improved';
 import TransactionAssignList from '../organism/transactions/TransactionAssignList';
 import TransactionPickedList from '../organism/transactions/TransactionPickedList';
 

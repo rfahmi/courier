@@ -1,10 +1,10 @@
-import React, { memo } from 'react';
-import { Alert, Text, TouchableOpacity, View, StyleSheet } from 'react-native';
-import { Card, Title, Caption } from 'react-native-paper';
+import React, {memo} from 'react';
+import {Alert, Text, TouchableOpacity, View, StyleSheet} from 'react-native';
+import {Card, Title, Caption} from 'react-native-paper';
 import Line from '../../components/Line';
-import { colors } from '../../constants/colors';
+import {colors} from '../../constants/colors';
 
-const CardPackage = ({ data }) => {
+const CardPackage = ({data}) => {
   return (
     <Card style={styles.cardContainer}>
       <Card.Content>

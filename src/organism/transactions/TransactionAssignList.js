@@ -39,6 +39,7 @@ const TransactionAssignList = () => {
         },
       )
       .then((res) => {
+        console.log(res.data);
         if (res.data.success) {
           if (p > 1) {
             setData([...data, ...res.data.data]);
@@ -199,7 +200,6 @@ const TransactionAssignList = () => {
         key={`trx${item.trxno}`}
         item={item}
         isSelected={isSelected}
-        option={option}
         deleteSelected={deleteSelected}
         addSelected={addSelected}
       />
