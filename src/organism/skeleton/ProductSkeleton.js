@@ -1,63 +1,49 @@
 import React from 'react';
-import {ActivityIndicator, Dimensions, View} from 'react-native';
-import {Skeleton} from 'react-native-animated-skeleton';
+import { Dimensions, View, ActivityIndicator, StyleSheet } from 'react-native';
 
 const ProductSkeleton = () => {
   const WINDOW_HEIGHT = Dimensions.get('window').height;
   const WINDOW_WIDTH = Dimensions.get('window').width;
-  const CONTENT_WIDTH = Dimensions.get('window').width - 32;
+  const CONTENT_WIDTH = WINDOW_WIDTH - 32;
   const SKELETON_COLOR = '#ddd';
+
   return (
     <View>
-      <Skeleton
-        loaderStyle={{
-          width: WINDOW_WIDTH,
-          height: WINDOW_WIDTH,
-          backgroundColor: SKELETON_COLOR,
-        }}
-        numberOfItems={1}
-      />
-      <View style={{padding: 16}}>
-        <Skeleton
-          loaderStyle={{
-            width: CONTENT_WIDTH * 0.3,
-            height: 22,
-            marginVertical: 4,
-            backgroundColor: SKELETON_COLOR,
-          }}
-          numberOfItems={1}
-        />
-        <Skeleton
-          loaderStyle={{
-            width: CONTENT_WIDTH * 0.7,
-            height: 22,
-            marginVertical: 4,
-            backgroundColor: SKELETON_COLOR,
-          }}
-          numberOfItems={1}
-        />
-        <View style={{marginVertical: 8}}>
-          <Skeleton
-            loaderStyle={{
-              width: CONTENT_WIDTH,
-              height: 14,
-              marginVertical: 4,
-              backgroundColor: SKELETON_COLOR,
-            }}
-            direction="column"
-            numberOfItems={3}
-          />
+      <View style={[styles.loader, { width: WINDOW_WIDTH, height: WINDOW_WIDTH }]} />
+      <View style={styles.contentContainer}>
+        <View style={[styles.skeletonLoader, { width: CONTENT_WIDTH * 0.3, height: 22 }]} />
+        <View style={[styles.skeletonLoader, { width: CONTENT_WIDTH * 0.7, height: 22 }]} />
+        <View style={styles.descriptionContainer}>
+          {[1, 2, 3].map((item) => (
+            <View key={item} style={[styles.skeletonLoader, { width: CONTENT_WIDTH, height: 14, marginBottom: 4 }]} />
+          ))}
         </View>
-        <View
-          style={{
-            height: 100,
-            justifyContent: 'center',
-          }}>
+        <View style={styles.activityIndicatorContainer}>
           <ActivityIndicator size="large" color={SKELETON_COLOR} />
         </View>
       </View>
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  loader: {
+    backgroundColor: '#ddd',
+  },
+  contentContainer: {
+    padding: 16,
+  },
+  skeletonLoader: {
+    backgroundColor: '#ddd',
+    marginVertical: 4,
+  },
+  descriptionContainer: {
+    marginVertical: 8,
+  },
+  activityIndicatorContainer: {
+    height: 100,
+    justifyContent: 'center',
+  },
+});
 
 export default ProductSkeleton;
