@@ -1,4 +1,4 @@
-package com.courier;
+package id.harnic.courier;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

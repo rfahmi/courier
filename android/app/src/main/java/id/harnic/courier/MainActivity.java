@@ -1,4 +1,4 @@
-package com.courier;
+package id.harnic.courier;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

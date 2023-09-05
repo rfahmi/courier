@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.courier"
+    namespace "id.harnic.courier"
     defaultConfig {
-        applicationId "com.courier"
+        applicationId "id.harnic.courier"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 16
