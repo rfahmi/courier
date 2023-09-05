@@ -69,4 +69,29 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     marginTop: 16,
   },
-  achievementItem:
+  achievementItem: {
+    flex: 1,
+    marginRight: 16,
+  },
+  achievementLabel: {
+    color: colors.white,
+  },
+  achievementValue: {
+    color: colors.white,
+    fontSize: 32,
+    fontWeight: 'bold',
+  },
+  loadingContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 16,
+  },
+  loadingItem: {
+    borderRadius: 4,
+    width: 80,
+    height: 40,
+    backgroundColor: '#ddd',
+  },
+});
+
+export default memo(CardAchievement);

@@ -1,0 +1,149 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/images/adventure.png",
+      "sha1": "5ae6220df18bb120352d3834ead10b9a3a69dd87"
+    },
+    {
+      "path": "src/assets/images/arrow_back.png",
+      "sha1": "cd9a618170b139e8cf2d5c5d7b545abb4ef6a6d4"
+    },
+    {
+      "path": "src/assets/images/astronaut.png",
+      "sha1": "4449c570886ebae9bcdd13b76427d40f27f18065"
+    },
+    {
+      "path": "src/assets/images/authentication.png",
+      "sha1": "53167468abde1a7137850e98143009f5f5780887"
+    },
+    {
+      "path": "src/assets/images/background_dot.png",
+      "sha1": "eb246a96d6ffcde56e6fdf00b1ee8ac0d73d77b6"
+    },
+    {
+      "path": "src/assets/images/banner.png",
+      "sha1": "210b1edad861c76ebab2b8645d4243320e4caee9"
+    },
+    {
+      "path": "src/assets/images/benefit.png",
+      "sha1": "5c7bff573290fb188b498057f6e666adb5d45dd6"
+    },
+    {
+      "path": "src/assets/images/bug_fixed.png",
+      "sha1": "3306cae9c2948a72824ba11c05f7f447f0ac04c1"
+    },
+    {
+      "path": "src/assets/images/card_payment.png",
+      "sha1": "02745c5e3be0ce2a0aad4007b16144c2d2f2f148"
+    },
+    {
+      "path": "src/assets/images/clean_inbox.png",
+      "sha1": "b4950ca9b0413f47db216b1aead5a052a229758c"
+    },
+    {
+      "path": "src/assets/images/cod.png",
+      "sha1": "d366cf082c459b148b7d0529c5ab73d00dfd8a5a"
+    },
+    {
+      "path": "src/assets/images/cs.png",
+      "sha1": "87672444f960f6b1e484fd3849a390131bbbaa40"
+    },
+    {
+      "path": "src/assets/images/empty_cart.png",
+      "sha1": "d90c93a7a6603866b3be39f5810785d501e1b4c6"
+    },
+    {
+      "path": "src/assets/images/failed.png",
+      "sha1": "0ad3a0937944c8dce8ac79d3b84e97841ccb5982"
+    },
+    {
+      "path": "src/assets/images/fotw.png",
+      "sha1": "29623190c78d0b5ed765abd556472fc483aa540d"
+    },
+    {
+      "path": "src/assets/images/freeongkir.png",
+      "sha1": "456fbffdbd7a56772402f678f6b211a5962e7fbc"
+    },
+    {
+      "path": "src/assets/images/habis.png",
+      "sha1": "377996ac07695dd8c6fcc5204337d1f8d4da86a5"
+    },
+    {
+      "path": "src/assets/images/harnic.png",
+      "sha1": "b19a551accea63e24be0f39a1b323f01b00e8f78"
+    },
+    {
+      "path": "src/assets/images/harnic.svg",
+      "sha1": "32fc6ff496bf7768ebddbd6bd3fa71b543ee854b"
+    },
+    {
+      "path": "src/assets/images/index.js",
+      "sha1": "45acc7da60426d87fd603aed1dc7439e792b0631"
+    },
+    {
+      "path": "src/assets/images/loading.png",
+      "sha1": "a3da5d8917721f3c040848a17ccfbc639eb9e7da"
+    },
+    {
+      "path": "src/assets/images/login.jpg",
+      "sha1": "68ba73d43690a44c55d0fe33b6775ab639f9e196"
+    },
+    {
+      "path": "src/assets/images/maintenance.png",
+      "sha1": "14c65490e0a843f76a5361a51b25a049b4d7f79b"
+    },
+    {
+      "path": "src/assets/images/marketing.png",
+      "sha1": "a80343efbed7bd7daf288695a5ee3560d4abe078"
+    },
+    {
+      "path": "src/assets/images/network.png",
+      "sha1": "1a300518ec1e6e3fb46e612185c469443822195a"
+    },
+    {
+      "path": "src/assets/images/nodata.png",
+      "sha1": "1ef830c59de30c785bb42275518f793d9184e4eb"
+    },
+    {
+      "path": "src/assets/images/not_found.png",
+      "sha1": "7c2a0b8d2a55af905a142f4ce33608c2d2b9f434"
+    },
+    {
+      "path": "src/assets/images/offline.png",
+      "sha1": "ebbbd0b7ae7ecc6f5c517e1bfbcc766e9a75970c"
+    },
+    {
+      "path": "src/assets/images/online_shopping.png",
+      "sha1": "6806d546d089ad9599c11e8c19a9e67ae0ec8a82"
+    },
+    {
+      "path": "src/assets/images/problem_solving.png",
+      "sha1": "6606d0bf24db71ee690541c9864434414d0ab45a"
+    },
+    {
+      "path": "src/assets/images/search_engine.png",
+      "sha1": "e8bdbe863a4bc9b89581fce3090904d3477c39b4"
+    },
+    {
+      "path": "src/assets/images/shopping.png",
+      "sha1": "9ce9c657e0d1d48d716d0d81810080267bd880a3"
+    },
+    {
+      "path": "src/assets/images/shopplist.png",
+      "sha1": "eb07b6d925569862d305b21150a5fe765bd24abb"
+    },
+    {
+      "path": "src/assets/images/success.png",
+      "sha1": "db4e7332dbb9d26b5578a92d173e7cb2f06f6d2c"
+    },
+    {
+      "path": "src/assets/images/time.png",
+      "sha1": "415d5bdf8f8ea5fc10bea54bea9a9c25dc051889"
+    },
+    {
+      "path": "src/assets/images/welcome.jpg",
+      "sha1": "d480b87694f8dceb93e7c313575991a338565a68"
+    }
+  ]
+}

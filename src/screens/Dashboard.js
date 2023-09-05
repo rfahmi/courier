@@ -200,7 +200,7 @@ const Dashboard = ({ navigation }) => {
                 </>
               ) : (
                 <>
-                  <Skeleton
+                  {/* <Skeleton
                     loaderStyle={{
                       borderRadius: 4,
                       width: 150,
@@ -218,7 +218,7 @@ const Dashboard = ({ navigation }) => {
                       backgroundColor: '#ddd',
                     }}
                     numberOfItems={1}
-                  />
+                  /> */}
                 </>
               )}
             </View>
